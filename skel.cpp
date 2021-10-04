@@ -23,8 +23,7 @@ int childToParentPipe[2];
 /* The maximum length of the file name */
 #define MAX_FILE_NAME_LENGTH 1000
 /* The array of names of hash programs */
-const string hashProgs[] = {"md5sum", "sha1sum", "sha224sum", "sha256sum",
-														"sha384sum", "sha512sum"};
+const string hashProgs[] = {"md5sum", "sha1sum", "sha224sum", "sha256sum", "sha384sum", "sha512sum"};
 
 
 /**
